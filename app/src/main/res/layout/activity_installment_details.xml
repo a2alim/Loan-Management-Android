@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@color/bgcolor"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Installment Info"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/cardview_light_background"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Name : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Username : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Email : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Address : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan ID : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/loanId"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Category : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/loanAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Installment Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/installmentAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Total Paid : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/totalPaid"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Payable Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/payableAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+
+</TableLayout>

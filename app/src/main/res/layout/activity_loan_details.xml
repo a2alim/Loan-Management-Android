@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    android:background="@color/bgcolor"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan Information"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="@color/cardview_light_background"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Name : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Email : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/emial"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Phone : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Address : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/address"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Username : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan ID : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/loanId"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/loanAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan Category : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Installment Type : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/installmentType"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Installment Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/installmentAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Total Installment : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/totalInstallment"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Payble Amount : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/totalPayableAmount"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Loan Status : "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:gravity="left"
+            android:padding="3dip"
+            android:textSize="20dp" />
+    </TableRow>
+
+
+
+</TableLayout>
